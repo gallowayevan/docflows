@@ -1,0 +1,11 @@
+  /////////////////////////////////////////////////////////////
+  ////////////////////// Setup ///////////////////////////////
+  /////////////////////////////////////////////////////////////
+
+//define dispatchers
+var dispatch = d3.dispatch('dataReady', 'stateChange', 'colorScaleReady');
+
+//formatter for state data access to ensure that 1 id 01, eg
+var stateIDFormat = d3.format("02");
+
+export {dispatch, stateIDFormat};

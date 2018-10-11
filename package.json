@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "rollup": "^0.43.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1",
+    "rollup-watch": "^4.0.0"
+  },
+  "dependencies": {
+    "d3": "^4.9.1",
+    "save-svg-as-png": "^1.2.0"
+  }
+}

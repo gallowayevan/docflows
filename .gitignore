@@ -1,0 +1,8 @@
+cloudapp.txt
+package-lock.json
+rollup.config.js
+node_modules/*
+connection.php
+sqltest.php
+UNC_shepsBLACK.svg
+UNC_shepsWHITE.svg
